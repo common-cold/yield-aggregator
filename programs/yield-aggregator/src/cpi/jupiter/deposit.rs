@@ -44,6 +44,7 @@ pub struct DepositParams<'info> {
     pub system_program: AccountInfo<'info>,
 
     // Target lending program
+    /// CHECK: This is an external admin account, only used for CPI; no data validation required.
     pub lending_program: UncheckedAccount<'info>,
 }
 

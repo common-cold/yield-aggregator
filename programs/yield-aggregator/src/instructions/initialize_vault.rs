@@ -1,8 +1,9 @@
 use anchor_lang::prelude::*;
 use anchor_lang::{account, InitSpace, Key, Result, Space, ToAccountInfo};
 
+use anchor_spl::token::Token;
 use anchor_spl::token_interface::{Mint, TokenAccount};
-use anchor_spl::token_2022::{transfer_checked, Token2022, TransferChecked};
+use anchor_spl::token_2022::{transfer_checked, TransferChecked};
 use anchor_spl::{associated_token::AssociatedToken};
 
 #[derive(Accounts)]
@@ -37,7 +38,7 @@ pub struct InitializeVault<'info> {
 
 
     pub system_program: Program<'info, System>,
-    pub token_program: Program<'info, Token2022>,
+    pub token_program: Program<'info, Token>,
     pub associated_token_program: Program<'info, AssociatedToken>
     
 }

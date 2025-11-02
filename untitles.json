@@ -1,0 +1,23 @@
+{
+    "signer": "AMCG5JxQ9CfRtRo4JpuducBKrkeAgP7QFzm3xb6pfSbb",
+    "depositorTokenAccount": "BBSgngSpSaU52HpRSmDfDPW5X9PQZBKdkDu4gSN5SZhq",
+    "recipientTokenAccount": "GyeQzozq6RrEhRXU5tsLGqXTppMv7vA4zhEWzDXgT3bG",
+    "lendingAdmin": "5nmGjA4s7ATzpBQXC5RNceRpaJ7pYw2wKsNBWyuSAZV6",
+    "lending": "3CUBb6FyDDd7J7cBjJLdZuK4FnErWeDUWSV8d8rg7SbE",
+    "mint": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU",
+    "fTokenMint": "5xWDnokdN7CUkTY8PYwrK7RPRXpESuKpk4hxF9ihLJBL",
+    "claimAccount": "75VuU8ZFhNxonHwDjTVsZQSK2Yyctpek9nUTV8nZeoTm",
+    "supplyTokenReservesLiquidity": "B1KUZKw2526LE3RrPWKgoXDwTyhCg1sJxadw41rM2twL",
+    "borrowTokenReservesLiquidity": "B1KUZKw2526LE3RrPWKgoXDwTyhCg1sJxadw41rM2twL",
+    "lendingSupplyPositionOnLiquidity": "9i1zp4tZzv1PUkCzRisb948cSQX7awNNzSvssvwi5cfS",
+    "lendingBorrowPositionOnLiquidity": "FMRiGYsLim98ByrkhYPjyMAbTo9kJthJb2jeAJJtdD4T",
+    "rateModel": "5KW5ybKXTbAcoivwAYbLw2poUPSxTknyseTvtxMD5jmx",
+    "vault": "6bJLuq7pgJpWSRhVUeyWVNrAjsmHvhm1AGWCfJE1H434",
+    "liquidity": "7s1da8DduuBFqGra5bJBjpnvL5E9mGzCuMk1Qkh4or2Z",
+    "liquidityProgram": "jupeiUmn818Jg1ekPURTpr4mFo29p46vygyykFJ3wZC",
+    "rewardsRateModel": "AE3fagjoUyvo28MFFLiXF6tpbUmhbS51cYG4rJZtvVP2",
+    "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "associatedTokenProgram": "ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL",
+    "systemProgram": "11111111111111111111111111111111",
+    "sysvarInstruction": "Sysvar1nstructions1111111111111111111111111"
+}

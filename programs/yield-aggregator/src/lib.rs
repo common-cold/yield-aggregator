@@ -1,8 +1,9 @@
 use anchor_lang::prelude::*;
 
-declare_id!("GkTQzxKdsb6aCiwDjbqt8ez6kRsfGKXsNHT8hqxMJGsm");
+declare_id!("Ciqbm5prTp5nF8qGB3265qjcwZdtxQzyYSYsYWCfp8qV");
 
 pub mod instructions;
+pub mod cpi;
 use crate::instructions::*;
 
 #[program]
@@ -16,6 +17,10 @@ pub mod yield_aggregator {
 
     pub fn initialize_vault<'info> (ctx: Context<'_, '_, '_, 'info, InitializeVault<'info>>, amount: u64) -> Result<()> {
         ctx.accounts.process(amount, ctx.bumps.vault_account)
+    }
+
+    pub fn deposit_to_jup_lend<'info> (ctx: Context<'_, '_, '_, 'info, DepositToJuplend<'info>>, amount: u64) -> Result<()> {
+        ctx.accounts.process(amount)
     }
 }
 

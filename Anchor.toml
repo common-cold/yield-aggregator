@@ -6,7 +6,7 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-yield_aggregator = "GkTQzxKdsb6aCiwDjbqt8ez6kRsfGKXsNHT8hqxMJGsm"
+yield_aggregator = "Ciqbm5prTp5nF8qGB3265qjcwZdtxQzyYSYsYWCfp8qV"
 
 [registry]
 url = "https://api.apr.dev"

@@ -44,6 +44,7 @@ pub struct WithdrawParams<'info> {
     pub system_program: AccountInfo<'info>,
 
     // Target lending program
+    /// CHECK: We don’t need to deserialize this account; we just pass it to the CPI
     pub lending_program: UncheckedAccount<'info>,
 }
 
